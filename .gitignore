@@ -1,0 +1,14 @@
+# --- VS Code Settings ---
+.vscode/
+
+# --- macOS Junk ---
+.DS_Store
+
+# --- C++ Compiled Binaries & Debug Files ---
+*.dSYM/
+*.o
+*.out
+*.exe
+
+# --- Specific Binary Names (Add yours here) ---
+a-watermelon-800
