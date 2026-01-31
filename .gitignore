@@ -1,14 +1,12 @@
-# --- VS Code Settings ---
-.vscode/
+# 1. Ignore EVERYTHING
+*
 
-# --- macOS Junk ---
-.DS_Store
+# 2. Exception: Allow Git to look inside folders 
+# (If you don't add this, Git will ignore the folder itself and never find the .cpp files inside!)
+!*/
 
-# --- C++ Compiled Binaries & Debug Files ---
-*.dSYM/
-*.o
-*.out
-*.exe
+# 3. Exception: Keep all .cpp files
+!*.cpp
 
-# --- Specific Binary Names (Add yours here) ---
-a-watermelon-800
+# 4. Exception: Keep the .gitignore file itself (so you can commit this setup)
+!.gitignore
